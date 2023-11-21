@@ -69,6 +69,7 @@ resource "google_compute_instance" "my_instance" {
     subnetwork = google_compute_subnetwork.network-with-private-secondary-ip-ranges.self_link
   }
 
+
   metadata_startup_script = <<-EOF
 #!bin/bash
 
@@ -82,6 +83,9 @@ sudo systemctl start apache2
 echo "Welcome to GCP!" > /var/www/html/index.html
 EOF
 
+    metadata = {
+    environment = var.environment
+  }
 
 }
 
