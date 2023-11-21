@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "prismatic-cider-395810",
+  "private_key_id": "ea020e5f7d54b98903aae3c168329e54441864e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDA0fAfk/Xgjqy6\n0XyYZm55N+FLB0jNGltfvFmVNoCqc3GrsJGZ/nQvuQID4nyDZNmBk4zA16YaisQ2\ni4TBhnYJTa4ZDboMw9BK7j3i5c3Xuqe5ad8gimnpf26SYIqoFUGrHWRDlZP1QSTp\n+I+uiw7/h+Swr1YKdW//eTSoMxBzGWyiiw8XcoL1VnzFuQAvRK/0H0nElnI2RSU3\nmQcGXeVUyQPZLTOcJYRu4IeM4CR7Y5Q+hwLIu2m853Qu3wJDn5zCfDvxqX761qem\nPXKi6RKqGeI9F8Tcr9NimcZx2GT1DoHmHLJB56dLwS3xXsJ9kfWZYFbuJCraFK+S\ncYcaOMsDAgMBAAECggEAE0OZbYfT/UPQqgS0uza9bsrqBuiLAELT283uvUoDgAQM\npUFjKpl4QWEgfGoSVCZG1mIUok4C2fM0BNpBJy/B3ZtIyFcz8VAjuhJXVUxUTNG1\nlBnc7ilZL4TijSlFpElYLqC/HA/dOmS8+JgAWUkQ9IkLjHak1MkRQw4SK4PLVVRW\nioVBjlA2s+h7rcoCuLzUB+ANZnJO2/katqESq/y9eD/FDdzlxtfyWPAFYk9zot6n\nKydmkJQ6cW4VE571FxesNIpLjuxz8uqodSFKwbfQRFqJevlP7ev0wGEHm/CPcoAf\n+xrHkGNe+As46qGtHri4xPPW1LEEkH/kI8KrrGkvQQKBgQDgnptNIb71HNRBF7fz\naBxAi4vZumGy4lkUxiZSzBhZ4ekyNDgm70HXfpq+UuRIdz1gNlI1/4oKtbBa5AzL\nKpw1TBLQt0LCAJTgrQzVN7FSXd+W821kd3hyoQuvc6jIjXsRD0nPr++BmX13YS7M\n4HlQZNGvhsQ+2oh1Q3OQSpN1kQKBgQDbwgpXbQnT57Xv7YcLE0bG1ghCqpVA43oS\n3K35G9BJZYBKOOQ0VMXKBj9Aep6mtHChF7K9HblAp4NqHLsSj/OmyyBFGUbcyAPu\nvKDs371bwv4W1kNnOnqBwfBeJSsNd3dxdqy+8fFKhL8h4s1k/zk57qwwfjLI3CNf\nVyfGRXRdUwKBgQCGmYSmq9oqN6RZfUUV7wU/CGA9kJqK/2gyMqs0YmkVM3LySqh7\nbFQgNhW0hyeU5R86UFLjWMX3tPiA/rdL57TDm1qLB8ZRStfr6scN3dm8adRaOHUN\nByp+RlMiSESUKXPdvTOV6O+00a2FpA7PZpRLwJ6GeFOQ9pNe8ZSGmqnSgQKBgHMh\nusdI4hA54hC8UbbUt4zuj09WDXH8e3UsVp0fHEWHvumj2rMsAp+wHC1M0JeoCyXq\nw4Le8rJT0L6kJMI51r34x4RMFNsQkzbdbjYLlipgAzy1roSDl7EpiSPZty+L+nDg\naupy2SZgW76GE3OpXzLhvyZ8x2CCLKoDgFwZATjvAoGAY+u9XzWJLgCz/HHJiM6k\ne97yuZkZuwCiU0CvOfm6QUxKfsWk+MW+va8LcdCApWFwBUpFX0Ix9BlFLBZ5xkpm\ng6ldwPEnYljVQ5TDLZDHVxx1jaUznuj+rRWFFsf5ntSa9v4KLdtC+BMUyKkZPg9f\noP5+Z6jq12kI6MKS5U2Pru8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@prismatic-cider-395810.iam.gserviceaccount.com",
+  "client_id": "113149298731580323756",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40prismatic-cider-395810.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

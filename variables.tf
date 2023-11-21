@@ -1,18 +1,18 @@
 variable "project" {
-  description = "Your project name"
+  description = "prismatic-cider-395810"
   type        = string
 }
 
 variable "region" {
   description = "default region to deploy infrastructure"
   type        = string
-  default     = "eu-central-1"
+  default     = "eu-central2-a"
 }
 
 variable "zone" {
   type        = string
   description = "The availability zone where the instance will be deployed"
-  default     = "europe-central-1a"
+  default     = "europe-central2-a"
 }
 
 variable "network_name" {
