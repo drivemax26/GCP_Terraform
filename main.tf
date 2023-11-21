@@ -1,25 +1,3 @@
-# provider "google" {
-#     credentials = file("prismatic-cider-395810-ea020e5f7d54.json")
-#     project = "prismatic-cider-395810"
-#     region = "europe-central2"
-#     zone = "europe-central2-a"
-# }
-
-# resource "google_compute_instance" "my_server" {
-#   name = "name"
-#   machine_type = "f1-micro"
-#     boot_disk {
-#       initialize_params {
-#         image = "debian-cloud/debian-11"
-#       }
-#     }
-#     network_interface {
-#       network = "default"
-#     }
-
-
-# }
-
 
 provider "google" {
   credentials = file("prismatic-cider-395810-ea020e5f7d54.json") 
@@ -45,7 +23,6 @@ resource "google_compute_network" "my_network" {
 
 
 data "google_compute_image" "image" {
-    # name = "image"
   family  = var.image_family
   project = var.image_project
 }
@@ -64,7 +41,6 @@ resource "google_compute_instance" "my_instance" {
   }
 
   network_interface {
-    # network = var.network_tags
     network = google_compute_network.my_network.self_link
     subnetwork = google_compute_subnetwork.network-with-private-secondary-ip-ranges.self_link
   }

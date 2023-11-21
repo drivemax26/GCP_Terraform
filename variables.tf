@@ -6,7 +6,7 @@ variable "project" {
 variable "region" {
   description = "default region to deploy infrastructure"
   type        = string
-  default     = "eu-central2-a"
+  default     = "europe-central2"
 }
 
 variable "zone" {
