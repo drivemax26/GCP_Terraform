@@ -55,6 +55,7 @@ resource "google_compute_instance" "my_instance" {
   name         = var.instance_name
   machine_type = var.instance_type
   zone         = var.zone
+  tags         = var.network_tags
 
   boot_disk {
     initialize_params {
@@ -63,6 +64,7 @@ resource "google_compute_instance" "my_instance" {
   }
 
   network_interface {
+    # network = var.network_tags
     network = google_compute_network.my_network.self_link
     subnetwork = google_compute_subnetwork.network-with-private-secondary-ip-ranges.self_link
   }
